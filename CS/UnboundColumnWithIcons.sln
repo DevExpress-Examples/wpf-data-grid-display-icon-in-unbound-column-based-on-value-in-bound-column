@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnboundColumnWithIcons", "UnboundColumnWithIcons\UnboundColumnWithIcons.csproj", "{B491A3CC-0E88-4CF4-B09A-E43CC3920767}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B491A3CC-0E88-4CF4-B09A-E43CC3920767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B491A3CC-0E88-4CF4-B09A-E43CC3920767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B491A3CC-0E88-4CF4-B09A-E43CC3920767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B491A3CC-0E88-4CF4-B09A-E43CC3920767}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

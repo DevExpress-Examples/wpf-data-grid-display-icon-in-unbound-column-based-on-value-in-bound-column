@@ -2,9 +2,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31605.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnboundColumnWithIcons", "UnboundColumnWithIcons\UnboundColumnWithIcons.csproj", "{B491A3CC-0E88-4CF4-B09A-E43CC3920767}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnboundColumnWithIcons_CodeBehind", "UnboundColumnWithIcons_CodeBehind\UnboundColumnWithIcons_CodeBehind.csproj", "{B491A3CC-0E88-4CF4-B09A-E43CC3920767}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnboundColumnWithIconsMVVM", "UnboundColumnWithIconsMVVM\UnboundColumnWithIconsMVVM.csproj", "{69236B4F-45C0-4E48-871C-73488BBA114E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnboundColumnWithIcons_MVVM", "UnboundColumnWithIcons_MVVM\UnboundColumnWithIcons_MVVM.csproj", "{69236B4F-45C0-4E48-871C-73488BBA114E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,5 +1,5 @@
 ﻿using System.Windows;
 
-namespace UnboundColumnWithIcons {
+namespace UnboundColumnWithIcons_CodeBehind {
     public partial class App : Application { }
 }

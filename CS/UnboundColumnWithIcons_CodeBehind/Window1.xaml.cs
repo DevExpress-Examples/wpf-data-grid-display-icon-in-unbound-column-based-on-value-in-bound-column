@@ -4,7 +4,7 @@ using System.Collections.ObjectModel;
 using System.Windows;
 using System.Windows.Media.Imaging;
 
-namespace UnboundColumnWithIcons {
+namespace UnboundColumnWithIcons_CodeBehind {
     public partial class Window1 : Window {
         ObservableCollection<MyObject> dataSource;
         public Window1() {

@@ -5,7 +5,7 @@ using System;
 using System.Collections.ObjectModel;
 using System.Windows.Media.Imaging;
 
-namespace UnboundColumnWithIconsMVVM {
+namespace UnboundColumnWithIcons_MVVM {
     public class MyObject {
         public string Action { get; set; }
         public MyObject(string action) {

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace UnboundColumnWithIconsMVVM {
+namespace UnboundColumnWithIcons_MVVM {
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>

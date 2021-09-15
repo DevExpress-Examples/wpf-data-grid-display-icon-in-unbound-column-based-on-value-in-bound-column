@@ -1,0 +1,24 @@
+﻿<Window x:Class="UnboundColumnWithIcons_CodeBehind.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+        Title="Window1"
+        Height="300" Width="300">
+
+    <Window.Resources>
+        <DataTemplate x:Key="IconCellTemplate">
+            <Image Height="32" Width="32" Source="{Binding Path=Value}" />
+        </DataTemplate>
+    </Window.Resources>
+
+    <dxg:GridControl x:Name="grid"
+                     CustomUnboundColumnData="GridControl_CustomUnboundColumnData">
+        <dxg:GridControl.Columns>
+            <dxg:GridColumn FieldName="Action" />
+            <dxg:GridColumn FieldName="IconUnbound" UnboundType="Object" CellTemplate="{StaticResource IconCellTemplate}" />
+        </dxg:GridControl.Columns>
+        <dxg:GridControl.View>
+            <dxg:TableView AutoWidth="True" />
+        </dxg:GridControl.View>
+    </dxg:GridControl>
+</Window>

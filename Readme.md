@@ -6,7 +6,7 @@
 
 # WPF Data Grid - How to Display an Icon in an Unbound Column Based on the Value in a Bound Column
 
-This example demonstrates how to create an unbound column with an image. The [GridControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl) displays images in this column based on values in a data bound grid column.
+This example demonstrates how to create an unbound column with an image. The [GridControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl) displays images in this column based on values in a data bound grid column. 
 
 <!-- default file list -->
 

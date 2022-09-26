@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
         xmlns:local="clr-namespace:UnboundColumnWithIcons_MVVM"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
         Title="MainWindow"
         Height="300" Width="300">
 
@@ -20,7 +21,7 @@
                      CustomUnboundColumnDataCommand="{Binding UnboundColumnDataCommand}">
         <dxg:GridControl.Columns>
             <dxg:GridColumn FieldName="Action" />
-            <dxg:GridColumn FieldName="IconUnbound" UnboundType="Object" CellTemplate="{StaticResource IconCellTemplate}" />
+            <dxg:GridColumn FieldName="IconUnbound" UnboundDataType="{x:Type sys:Object}" CellTemplate="{StaticResource IconCellTemplate}" />
         </dxg:GridControl.Columns>
         <dxg:GridControl.View>
             <dxg:TableView AutoWidth="True" />

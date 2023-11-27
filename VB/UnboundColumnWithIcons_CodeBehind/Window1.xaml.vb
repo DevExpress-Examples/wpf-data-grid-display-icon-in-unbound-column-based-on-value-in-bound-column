@@ -12,17 +12,17 @@ Namespace UnboundColumnWithIcons_CodeBehind
         Private dataSource As ObservableCollection(Of MyObject)
 
         Public Sub New()
-            InitializeComponent()
+            Me.InitializeComponent()
             dataSource = New ObservableCollection(Of MyObject)()
             dataSource.Add(New MyObject("cut"))
             dataSource.Add(New MyObject("copy"))
             dataSource.Add(New MyObject("paste"))
             dataSource.Add(New MyObject("delete"))
-            grid.ItemsSource = dataSource
+            Me.grid.ItemsSource = dataSource
         End Sub
 
         Private Sub GridControl_CustomUnboundColumnData(ByVal sender As Object, ByVal e As GridColumnDataEventArgs)
-            If e.Column.FieldName Is "IconUnbound" Then
+            If Equals(e.Column.FieldName, "IconUnbound") Then
                 If e.IsGetData Then
                     Dim row As MyObject = dataSource(e.ListSourceRowIndex)
                     Dim resourceName As String = GetResourceName(row.Action)

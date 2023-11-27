@@ -27,7 +27,7 @@ Namespace UnboundColumnWithIcons_MVVM
 
         <Command>
         Public Sub UnboundColumnData(ByVal args As UnboundColumnRowArgs)
-            If args.FieldName Is "IconUnbound" AndAlso args.IsGetData Then
+            If Equals(args.FieldName, "IconUnbound") AndAlso args.IsGetData Then
                 Dim item = CType(args.Item, MyObject)
                 Dim resourceName = GetResourceName(item.Action)
                 args.Value = GetImage(resourceName)

@@ -37,7 +37,7 @@ This example demonstrates how to create an unbound column with an image. The [Gr
 
 - [How to Create Unbound Columns](https://github.com/DevExpress-Examples/how-to-create-unbound-columns-e1503)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-display-icon-in-unbound-column-based-on-value-in-bound-column&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-display-icon-in-unbound-column-based-on-value-in-bound-column&~~~was_helpful=no)
 
